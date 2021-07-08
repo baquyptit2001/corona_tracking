@@ -1,7 +1,7 @@
 <template>
         <div class="banner-content">
             <h2>COVID-19 Tracker</h2>
-            <h4>Tatal Confirmed Corona Cases</h4>
+            <h4>Total Confirmed Corona Cases</h4>
             <h2 class="count-people">{{ items.Global.TotalConfirmed }}</h2>
             <ul class="lab-ul">
                 <li>Active cases <span class="count-people">{{ items.Global.TotalConfirmed-items.Global.TotalRecovered-items.Global.TotalDeaths }}</span></li>

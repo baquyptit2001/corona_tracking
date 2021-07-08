@@ -4,6 +4,7 @@ import Vue from 'vue'
 
 import App from './vue/app'
 import taybo from './vue/table'
+import count from './vue/count'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -16,5 +17,5 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 const app = new Vue({
     el: '#app',
-    components: {App, taybo}
+    components: {App, taybo, count}
 });
